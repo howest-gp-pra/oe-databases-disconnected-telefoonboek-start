@@ -65,4 +65,4 @@ Zorg ervoor dat je ook nog steeds nieuwe telefoonnummers kan toevoegen terwijl e
 Zorg ervoor dat de contactpersonen in de lijst steeds alfabetisch gesorteerd staan.
 
 ## Extra: knoppen "Wijzig" en "Verwijder" verbergen
-In de basisoplossing zorg je ervoor dat er niks gebeurt wanneer je op `btnWijzig` of `btnVerwijder` klikt terwijl er geen telefoonnummer in de lijst geselecteerd is (bv. omdat de lijst nog leeg is of omdat de applicatie net opgestart is). Mooier is natuurlijk om ervoor te zorgen dat deze twee knoppen enkel ingeschakeld zijn indien je effectief een telefoonnumer hebt geselecteerd.
+In de basisoplossing zorg je ervoor dat er niks gebeurt wanneer je op `btnWijzig` of `btnVerwijder` klikt terwijl er geen telefoonnummer in de lijst geselecteerd is (bv. omdat de lijst nog leeg is of omdat de applicatie net opgestart is). De applicatie mag in elk geval niet crashen. Mooier is natuurlijk om ervoor te zorgen dat deze twee knoppen enkel ingeschakeld zijn indien je effectief een telefoonnumer hebt geselecteerd.
