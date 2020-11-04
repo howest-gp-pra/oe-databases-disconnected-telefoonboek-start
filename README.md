@@ -57,7 +57,7 @@ De controls binnen `grpDetails` blijven echter uitgeschakeld tot je in editeermo
 Wordt bovenaan in `txtZoek` een waarde ingevoerd en vervolgens op `btnZoek` geklikt, dan dient de listbox beperkt te worden tot de items in wiens naam de ingevoerde tekst voorkomt.
 Wordt op `btnEindeZoek` geklikt, dan dient `txtZoek` leeg gemaakt te worden en dienen terug alle items getoond te worden.
 Wanneer er een zoekopdracht actief is, kan je nog steeds telefoonnummers in de gefilterde lijst selecteren om hun gegevens te bekijken en eventueel aan te passen.
-Zorg ervoor dat je ook nog steeds nieuwe telefoonnummers kan toevoegen terwijl en een zoekopdracht actief is:
+Zorg ervoor dat je ook nog steeds nieuwe telefoonnummers kan toevoegen terwijl er een zoekopdracht actief is:
 - Als het nieuwe contact voldoet aan de zoekopdracht, wordt het getoond en geselecteerd in de gefilterde lijst (idem als wanneer er geen filter actief is).
 - Voldoet het nieuwe contact niet aan de actieve zoekopdracht, dan zie je het na bewaren **niet** meteen in de lijst. Wis je echter de actieve filter met de knop `btnEindeZoek`, dan zie je opnieuw alle telefoonnummers in de lijst, inclusief het zonet toegevoegde nummer.
 
