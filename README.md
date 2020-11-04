@@ -52,6 +52,13 @@ Telkens een telefoonnummer toegevoegd, gewijzigd of verwijderd wordt dient deze 
 Wordt in `lstNummers` een item geselecteerd, dan dienen de detailgegevens in de corresponderende controls binnen `grpDetails` getoond te worden.
 De controls binnen `grpDetails` blijven echter uitgeschakeld tot je in editeermodus gaat via de knop `btnWijzig`.
 
+## Bevestiging voor verwijderen
+
+Wanneer je op de knop `btnVerwijder` klikt, wordt er een bevestiging gevraagd of je zeker bent dat je het geselecteerde telefoonnummer wil verwijderen.
+Je kan de actie nog annuleren indien je dat wenst.
+
+![Bevestiging voor verwijderen](images/verwijder.png)
+
 ## Zoekvak
 
 Wordt bovenaan in `txtZoek` een waarde ingevoerd en vervolgens op `btnZoek` geklikt, dan dient de listbox beperkt te worden tot de items in wiens naam de ingevoerde tekst voorkomt.
@@ -60,6 +67,12 @@ Wanneer er een zoekopdracht actief is, kan je nog steeds telefoonnummers in de g
 Zorg ervoor dat je ook nog steeds nieuwe telefoonnummers kan toevoegen terwijl er een zoekopdracht actief is:
 - Als het nieuwe contact voldoet aan de zoekopdracht, wordt het getoond en geselecteerd in de gefilterde lijst (idem als wanneer er geen filter actief is).
 - Voldoet het nieuwe contact niet aan de actieve zoekopdracht, dan zie je het na bewaren **niet** meteen in de lijst. Wis je echter de actieve filter met de knop `btnEindeZoek`, dan zie je opnieuw alle telefoonnummers in de lijst, inclusief het zonet toegevoegde nummer.
+
+## Foutafhandeling
+
+Wanneer je bij het aanmaken of wijzigen van een telefoonnummer zondigt tegen de hierboven beschreven regels (uniek, niet `null`, ...) dan wordt er een melding getoond en blijft de editeermodus actief.
+
+![Foutmelding: duplicaat telefoonnummer](images/error.png)
 
 ## Extra: sorteren
 Zorg ervoor dat de contactpersonen in de lijst steeds alfabetisch gesorteerd staan.
