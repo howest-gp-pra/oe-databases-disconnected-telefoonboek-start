@@ -3,7 +3,7 @@
 ## Opdracht
 Maak een programma dat telefoonboekgegevens gaat bijhouden in een disconnected database.
 
-!(GUI Telefoonboek)[images/telefoonboek.png]
+![GUI Telefoonboek](images/telefoonboek.png)
 
 ## Toelichting
 Het programma maakt gebruik van 1 datatable : telefoonnummers.
