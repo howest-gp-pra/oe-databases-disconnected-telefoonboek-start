@@ -15,8 +15,7 @@ Deze datatable bevat 4 kolommen:
 
 De inhoud (en de structuur) van deze tabel dient bij het afsluiten in een XML bestand bewaard te worden, en bij het opstarten uitgelezen te worden.
 Het is aangeraden om deze "autosave" functionaliteit als laatste toe te voegen.
-Bestaat het XML bestand nog niet, dan dien je de tabelstructuur uiteraard eerst aan te maken bij het opstarten van de applicatie.
-Verzien zelf een aantal telefoonnummers met verschillende eigenschappen die je toevoegt aan je tabel.
+Bestaat het XML bestand nog niet, dan dien je de (lege) tabelstructuur uiteraard eerst aan te maken bij het opstarten van de applicatie.
 
 Bij het opstarten zorg je er tevens voor dat: 
 -	`grpZoek` ingeschakeld wordt
