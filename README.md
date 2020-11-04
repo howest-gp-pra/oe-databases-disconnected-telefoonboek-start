@@ -46,6 +46,7 @@ Na het bewaren van de gegevens wordt het nieuw aangemaakt telefoonnummer meteen 
 Wijzigen van bestaande gegevens met de knop `btnWijzig` verloopt analoog als het aanmaken van nieuwe gegevens met de knop `btnNieuw`.
 Uiteraard worden in dit geval de eigenschappen van het bestaande telefoonnummer overschreven in plaats van een nieuw telefoonnummer toe te voegen.
 Ook hier kan je de wijziging annuleren met de knop `btnAnnuleren` waarna je de editeermodus terug verlaat.
+Zowel bij annuleren als bewaren van de wijziging blijft het betreffende telefoonnummer geselecteerd in de lijst.
 
 De listbox `lstNummers` dient gevuld te worden met `Naam + " " + voornaam + " : " + telefoonnummer`.
 Telkens een telefoonnummer toegevoegd, gewijzigd of verwijderd wordt dient deze listbox bijgewerkt te worden.
