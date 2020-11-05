@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Oe_pra_db1_telefoonboek.Wpf
+namespace Pra.Db.Disconnected.Telefoonboek.Wpf
 {
     /// <summary>
     /// Interaction logic for App.xaml

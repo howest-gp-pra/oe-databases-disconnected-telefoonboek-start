@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oe-pra-db1-telefoonboek.Wpf", "Oe-pra-db1-telefoonboek.Wpf\Oe-pra-db1-telefoonboek.Wpf.csproj", "{A85FDB37-31C5-4DB8-908B-93C64AF1C8A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.Db.Disconnected.Telefoonboek.Wpf", "Pra.Db.Disconnected.Telefoonboek.Wpf\Pra.Db.Disconnected.Telefoonboek.Wpf.csproj", "{FD4CFCE6-4A34-45EA-B1F6-88E39799F229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A85FDB37-31C5-4DB8-908B-93C64AF1C8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A85FDB37-31C5-4DB8-908B-93C64AF1C8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A85FDB37-31C5-4DB8-908B-93C64AF1C8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A85FDB37-31C5-4DB8-908B-93C64AF1C8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4CFCE6-4A34-45EA-B1F6-88E39799F229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4CFCE6-4A34-45EA-B1F6-88E39799F229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4CFCE6-4A34-45EA-B1F6-88E39799F229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4CFCE6-4A34-45EA-B1F6-88E39799F229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
